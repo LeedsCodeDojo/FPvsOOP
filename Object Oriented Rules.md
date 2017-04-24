@@ -7,10 +7,8 @@ Based on https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.p
 3. Wrap All Primitives And Strings
 4. First Class Collections
 5. One Dot Per Line
-6. Don’t Abbreviate
-7. Keep All Entities Small
-8. No Classes With More Than Two Instance Variables
-9. No Getters/Setters/Properties
+6. No More Than Two Instance Variables
+7. No Setters/Properties
 
 ### 1. Only One Level Of Indentation Per Method
 
@@ -42,13 +40,12 @@ Basically, the rule says that you should not chain method calls. It is the direc
 
 e.g. avoid code like this: game.turn.activePlayer.score
 
-### 6. No Classes With More Than Two Instance Variables
+### 6. No More Than Two Instance Variables
 
 This rule is probably the hardest one, but it promotes high cohesion, and better encapsulation.
 
-### 7. No Getters/Setters/Properties
+### 7. No Setters/Set Properties
 
-AKA Tell, don’t ask.  It is okay to use accessors to get the state of an object, as long as you don’t use the result to make decisions outside the object. Any decisions based entirely upon the state of one object should be made inside the object itself.
+You should not update an object's state directly, and only use it in limited ways.  It is okay to use accessors to get the state of an object, as long as you don’t use the result to make decisions outside the object. Any decisions based entirely upon the state of one object should be made inside the object itself.
 
-That is why getters/setters are often considered evil. Then again, they violate the Open/Closed Principle.
 .
