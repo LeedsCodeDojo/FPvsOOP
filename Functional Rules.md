@@ -40,4 +40,4 @@ Avoid using if statements.  "if" is just a special case of pattern matching anyw
 
 ### No Loops
 
-Loops are for noobs.  Get declarative and/or recursive
+Loops are for noobs.  Get declarative and/or recursive!
