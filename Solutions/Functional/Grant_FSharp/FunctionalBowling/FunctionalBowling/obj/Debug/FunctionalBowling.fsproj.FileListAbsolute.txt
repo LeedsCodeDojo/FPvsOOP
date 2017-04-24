@@ -1,0 +1,12 @@
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FunctionalBowling.XML
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FunctionalBowling.dll
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FunctionalBowling.pdb
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FSharp.Core.dll
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FsUnit.NUnit.dll
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\nunit.framework.dll
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FSharp.Core.xml
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\FsUnit.NUnit.xml
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\bin\Debug\nunit.framework.xml
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\obj\Debug\FunctionalBowling.dll
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\obj\Debug\FunctionalBowling.pdb
+C:\Programs\Leeds Code Dojo\FPvsOOP\Solutions\Functional\Grant_FSharp\FunctionalBowling\FunctionalBowling\obj\Debug\FunctionalBowling.fsprojResolveAssemblyReference.cache
