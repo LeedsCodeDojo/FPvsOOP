@@ -8,6 +8,7 @@ Based on http://blog.ninjaferret.co.uk/2015/06/05/Introducing-Functional-Calisth
 4. Maximum level of abstraction
 5. Always use infinite sequences
 6. No ifs
+7. No Loops
 
 ### Side effects can only occur at the top level
 
@@ -37,3 +38,6 @@ If you function takes, or returns, a sequence of data then write the function in
 
 Avoid using if statements.  "if" is just a special case of pattern matching anyway.
 
+### No Loops
+
+Loops are for noobs.  Get declarative and/or recursive
