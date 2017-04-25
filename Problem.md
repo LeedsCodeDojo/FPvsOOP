@@ -9,7 +9,10 @@
     * Score for this frame is 10 + pins from next two balls
 * ‘Spare’ – all 10 pins knocked down on second attempt
     * Score for this frame is 10 + pins from next ball
-* If you get a Strike or Spare on the last frame, you get an additional 1 or 2 balls 
+* If you get a Strike or Spare on the last frame, you get an additional 1 (spare) or 2 (strike) balls 
+    * In the case of a strike (2 extra balls), if on the first extra ball you knock down:
+        * < 10 pins, for the last ball you only have the remaining pins to score
+        * 10 pins, for the last ball you get 10 pins again
 
 ### Examples
 
@@ -25,7 +28,13 @@ Frame 1: [5,5] **16**
 Frame 2: [6,3] **9**  
 Score: 25  
 
-Frames: [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] 10 10 **<- extra balls to calculate Frame 10 score**  
+Frames: [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [5, 5] 10 **<- extra ball to calculate Frame 10 score**  
+Score: 275  
+
+Frames: [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] 8 2 **<- only 2 pins left for last ball**  
+Score: 288  
+
+Frames: [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] 10 10 **<- extra 10 pins for final ball**  
 Score: 300  
 
 ### Program
