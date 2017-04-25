@@ -43,8 +43,6 @@ Write a program which takes a partial or full set of frames and calculates the s
 
 * Input will always be full frames (+ bonus balls if needed)
 * Assume input always valid
-* Input will be no more than one game*
+* Input will be no more than one game* (Note FP rule about infinite sequences)
 * Input format is up to you
 * Prepare to accept different inputs during scoring
-
-\* Note functional rules RE infinite sequences
