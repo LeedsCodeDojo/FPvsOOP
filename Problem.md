@@ -17,16 +17,16 @@ Frame 1: [3,5] **8**
 Frame 2: [2,4] **6**  
 Score: 14  
 
-Frame 1: [10,-] **13**
-Frame 2: [2,1] **3**
-Score: 16
+Frame 1: [10,-] **13**  
+Frame 2: [2,1] **3**  
+Score: 16  
 
-Frame 1: [5,5] **16**
-Frame 2: [6,3] **9**
-Score: 25
+Frame 1: [5,5] **16**  
+Frame 2: [6,3] **9**  
+Score: 25  
 
-Frames: [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] 10 10 **<- extra balls to calculate Frame 10 score**
-Score: 300
+Frames: [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] [10,-] 10 10 **<- extra balls to calculate Frame 10 score**  
+Score: 300  
 
 ### Program
 
