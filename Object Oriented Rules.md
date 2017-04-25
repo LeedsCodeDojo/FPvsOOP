@@ -5,10 +5,14 @@ Based on https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.p
 1. Only One Level Of Indentation Per Method
 2. Don’t Use The ELSE Keyword
 3. Wrap All Primitives And Strings
-4. First Class Collections
-5. One Dot Per Line
-6. No More Than Two Instance Variables
-7. No Setters/Properties
+4. One Dot Per Line
+5. No More Than Two Instance Variables
+6. No Setters/Properties
+7. Explicit inheritance must be used at least once
+8. No Functional code
+    * First-class functions
+    * High-order functions
+    * Declarative code (e.g Linq)
 
 ### 1. Only One Level Of Indentation Per Method
 
@@ -28,24 +32,24 @@ Following this rule is pretty easy, you simply have to encapsulate all the primi
 
 If the variable of your primitive type has a behaviors, you MUST encapsulate it. And this is especially true for Domain Driven Design. DDD describes Value Objects like Money, or Hour for instance.
 
-### 4. First Class Collections
-
-Any class that contains a collection should contain no other member variables. If you have a set of elements and want to manipulate them, create a class that is dedicated for this set.
-
-Each collection gets wrapped in its own class, so now behaviors related to the collection have a home (e.g. filter methods, applying a rule to each element).
-
-### 5. One Dot Per Line
+### 4. One Dot Per Line
 
 Basically, the rule says that you should not chain method calls. It is the direct use of the Law of Demeter, saying only talk to your immediate friends, and don’t talk to strangers.
 
 e.g. avoid code like this: game.turn.activePlayer.score
 
-### 6. No More Than Two Instance Variables
+### 5. No More Than Two Instance Variables
 
 This rule is probably the hardest one, but it promotes high cohesion, and better encapsulation.
 
-### 7. No Setters/Set Properties
+### 6. No Setters/Set Properties
 
 You should not update an object's state directly, and only use it in limited ways.  It is okay to use accessors to get the state of an object, as long as you don’t use the result to make decisions outside the object. Any decisions based entirely upon the state of one object should be made inside the object itself.
 
-.
+### 7. Explicit inheritance must be used at least once
+
+Of course being a lover of OO, you'll be using it all over the place anyway!
+
+### 8. No 'Functional' code
+
+As if you'd even want to!
